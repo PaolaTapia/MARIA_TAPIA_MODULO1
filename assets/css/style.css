@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+a {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+header{
+    background-image: url('../img/image1.jpg');
+    height: 30vh;
+    width: 100vw; 
+    background-position: 80% 20%;
+    background-size: cover;
+}
+.is-hidden {
+    display: none;
+  }
+  
+.header {
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.header>h1 {
+    color: black;
+    text-shadow: 3px 5px burlywood;
+    font-size: 50px;
+    font: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header>h2{
+    
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: -999;
+}
+figure{
+    float: right; 
+    margin-top: -7%; 
+    margin-right: 10%;
+    width: 10%; 
+    background: black;
+
+}
+
+
+#logo{
+    /* width: 120px; 
+    height: 120px */
+    width: 100%;
+}
+
+.content{
+    position: absolute; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin: 20px; 
+}
+nav {
+    margin-top: 5%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    position: relative; 
+}
+main{
+  margin-top: 10vh; 
+  width: 60%; 
+  position: relative; 
+}
+article{
+    margin: 20px; 
+}
+.mision{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mision>p{
+    margin-bottom: 10px;
+}
