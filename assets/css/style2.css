@@ -21,7 +21,7 @@ header{
     display: none;
   }
   
-.header {
+.headerI {
     position: relative;
         height: 35vh;
     display: flex;
@@ -29,7 +29,7 @@ header{
     flex-wrap: wrap;
     align-content: space-between;
 }
-.header>h1 {
+.headerI>h1 {
     position: absolute;
     top: -30%; 
     color: black;
@@ -38,7 +38,7 @@ header{
     font: 700;
     
 }
-.header>h2{
+.headerI>h2{
     position: absolute; 
     top: 90%; 
     display: inline-block;

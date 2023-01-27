@@ -20,22 +20,27 @@ header{
     display: none;
   }
   
-.header {
-    height: 35vh;
-    display: flex;
+.headerI {
+    display: block;
+    position: relative; 
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-between; */
 }
-.header>h1 {
+.headerI>h1 {
+    position: absolute;
+    top: 50px; 
+
     color: black;
     text-shadow: 3px 5px burlywood;
     font-size: 50px;
     font: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.header>h2{
-    
+.headerI>h2{
+    position: absolute;
+    top: 160px; 
     display: inline-block;
     background-color: black;
     color: white;
@@ -44,6 +49,9 @@ header{
     z-index: -999;
 }
 figure{
+    position: absolute;
+    top: 35%; 
+    right: 10%;
     float: right; 
     margin-top: -7%; 
     margin-right: 10%;
