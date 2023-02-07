@@ -144,6 +144,17 @@ article {
 
 
 /* STYLES GAME INFO */
+.content__gameInfo {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
 caption {
     margin-top: 20px;
     font-weight: bold;
@@ -160,7 +171,6 @@ table {
     justify-content: center;
     flex-direction: column;
     text-align: justify;
-    margin-left: calc(100vw/5);
 }
 
 .parrafos__footer {
@@ -207,4 +217,86 @@ td {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.mapas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mapa 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 40%;
+}
+
+/* STYLES REGISTRATION*/
+
+.formReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.address{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+form{
+text-align: start;
+background-image: url('../img/hockey2.jpg');
+margin: 5rem;
+width: 80%;
+vertical-align:middle;
+
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+
+.nearsch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.uniformSize, 
+.positions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.label__street{
+    width: 100%;
+}
+.input__street{
+    width: 60vw;
+}
+.school{
+    width: calc(50vw - 250px);
+}
+
+.permission{
+    display:flex; 
+    flex-direction: column;
+}
+.btnGuardar{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color:rgb(253, 136, 2); 
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 30px;
 }
